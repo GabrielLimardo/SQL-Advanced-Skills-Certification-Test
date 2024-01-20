@@ -1,0 +1,16 @@
+##1. Crypto Market Algorithms Report
+A number of algorithms are used to mine cryptocurrencies. As part of a comparison, create a
+query to return a list of algorithms and their volumes for each quarter of the year 2020.
+The result should be in the following format: algorithm name, QI , Q2, Q3, Q4 transactions.
+QI through Q4 contain the sums of transaction volumes for the algorithm for each calendar
+quarter of 2020 precise to 6 places after the decimal.
+• Results should be sorted ascending by algorithm name.
+
+
+##2. Winners Chart
+There were a number of contests where participants each made multiple attempts. The
+attempt with the highest score is the only one considered. Write a query to list the
+contestants ranked in the top 3 for each contest. If multiple contestants have the same score
+in a contest, they are at the same rank.
+Report event_id, rank 1 name(s), rank 2 name(s), rank 3 name(s). Order the contests by
+event_id. Names that share a rank should be ordered alphabetically and separated by a comma.
